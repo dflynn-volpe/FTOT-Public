@@ -43,6 +43,6 @@ Copy these files from the location of this file to the location of your FTOT ins
 Run quick start 7 now, using the modified FTOT code.
 Browse to `C:\FTOT\scenarios\quick_start\qs7_rmp_proc_dest_multi_inputs` and double-click `run_v5_1.bat`.
 
-## Conduct evenness calculation and link removal disruptions
+## Conduct link removal disruptions
 
-Browse to Calcualte Evenness.ipynb to begin this module.
+Browse to `Conduct_Link_Removal.ipynb` to begin this module.
