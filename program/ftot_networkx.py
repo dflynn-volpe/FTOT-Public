@@ -73,9 +73,9 @@ def make_networkx_graph(the_scenario, logger):
     logger.debug("start: compose G and H")
     G = nx.compose(G, H)
 
-    # delete temporary files
-    logger.debug("start: delete the temp_networkx_shp_files dir")
-    rmtree(input_path)
+    # DF changed: DO NOT delete temporary files
+    # logger.debug("start: delete the temp_networkx_shp_files dir")
+    # rmtree(input_path)
 
     # print out some stats on the Graph
     logger.info("Number of nodes in the raw graph: {}".format(G.order()))

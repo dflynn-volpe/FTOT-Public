@@ -8,3 +8,8 @@ Reports/
 *.db
 *.gdb
 Maps_Time_Commodity/
+*.RData
+*.jpeg
+*.jpg
+*.pickle
+*.csv

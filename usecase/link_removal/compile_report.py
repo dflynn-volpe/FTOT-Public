@@ -17,8 +17,8 @@ def main():
 
     subprocess.call(['Rscript.exe', '--vanilla', 'compile_report.R'])
     
-    # TODO: assess why this doesn't open the webbrowser.
-    # For now, run these steps in the Jupyter Notebook
+    # TODO: assess why this doesn't open the webbrowser from the function.
+    # For now, run these steps in the Jupyter Notebook, webrowser.open works as expected there.
     
     here = os.getcwd()
 
